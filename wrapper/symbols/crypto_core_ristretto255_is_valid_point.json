@@ -1,5 +1,9 @@
 {
         "name": "crypto_core_ristretto255_is_valid_point",
+        "dependencies": [
+                "_crypto_core_ristretto255_is_valid_point",
+                "_crypto_core_ristretto255_bytes"
+        ],
         "type": "function",
         "inputs": [
                 {
